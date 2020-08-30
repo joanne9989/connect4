@@ -1,0 +1,10 @@
+@font-face {
+  font-family: heading_font;
+  src: url("../fonts/NovaCut-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: paragraph_font;
+  src: url("../fonts/FaunaOne-Regular.ttf");
+}
