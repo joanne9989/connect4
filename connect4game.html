@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Connect4Game</title>
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS only -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<link rel="stylesheet" type="text/css" href="css/connect4Game.css">
+
+
+</head>
+<body>
+
+	<div class="container">
+	  <!-- Content here -->
+
+		<div id = "changeTurns" class = "maxWidth myHeadings">Player 1's Turn</div>
+		<div id = "gameBoard" class = "maxWidth"></div>
+		<button id = "resetButton" class = "maxWidth btn btn-danger myHeadings" onclick="resetGameBoard()">Reset</button>
+		<div id = "winnerDiv" class = "maxWidth"></div>	
+	</div>
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="scripts/jquery-3.5.1.slim.min.js"></script>
+	<script src="scripts/popper.min.js" ></script>
+	<script src="scripts/bootstrap.min.js"></script>
+
+	<!-- custom js -->
+	<script src="scripts/connect4Game.js"></script>
+
+
+</body>
+</html>
